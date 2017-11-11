@@ -1,0 +1,10 @@
+#这里是我自己添加的
+#用来简化从网络上克隆我的个人网站的过程的
+alias gitclone='git clone git@github.com:aaronlinux/aaronlinux.github.io.git'
+#添加到本地库
+alias gitadd='git add .'
+alias gitcommit='git commit -m "mac常规更改"'
+alias gitpush='git push'
+alias gitrenew='gitadd && gitcommit && gitpush'
+alias emacs='/Applications/Emacs.app/Contents/MacOS/Emacs "$@"-nw'
+alias em='emacs'
